@@ -1,0 +1,35 @@
+.container {
+    max-width: 1080px;
+    margin: 20px auto;
+    
+  }
+  .top-cop{
+    padding-top: 20px;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card {
+    margin-left: 20px;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px red solid;
+    max-height: 300px; /* Set a max height for scrolling */
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;
+  }
+  
+  .header {
+    height: 30%;
+    background: red;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  

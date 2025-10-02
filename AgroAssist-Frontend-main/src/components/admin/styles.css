@@ -1,0 +1,422 @@
+/* Dashboard Container */
+.dashboard-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.dashboard-container:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Dashboard Title */
+.dashboard-title {
+  font-size: 32px;
+  color: #1b4332;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+/* Toggle Buttons */
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.toggle-buttons button {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background-color: #e9f5f2;
+  color: #1b4332;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.toggle-buttons button:hover {
+  background-color: #c7e4db;
+}
+
+.toggle-buttons button.active {
+  background-color: #1b4332;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Content Area */
+.dashboard-content {
+  margin-top: 30px;
+}
+
+/* Search Form */
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-tab input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: box-shadow 0.3s ease;
+}
+
+.search-tab input:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Add Button */
+.add-btn, .add-user-form .btn {
+  padding: 12px 25px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #2d6a4f;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-btn:hover, .add-user-form .btn:hover {
+  background-color: #1b4332;
+  transform: scale(1.05);
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+  width: 90%;
+  max-width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  text-align: center;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Modal Title */
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1b4332;
+  margin-bottom: 20px;
+}
+
+/* Modal Form and Input */
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.modal-input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: box-shadow 0.3s ease;
+}
+
+.modal-input:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Modal Buttons */
+.modal-add-btn, .modal-close-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.modal-add-btn {
+  background-color: #2d6a4f;
+  color: white;
+}
+
+.modal-add-btn:hover {
+  background-color: #1e4c34;
+  transform: scale(1.05);
+}
+
+.modal-close-btn {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.modal-close-btn:hover {
+  background-color: #d93636;
+  transform: scale(1.05);
+}
+
+/* Error Message */
+.error-message {
+  color: #ff4d4d;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Table Styling */
+.products-table, .user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.products-table th, .user-table th {
+  background-color: #1b4332;
+  color: white;
+  padding: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.products-table td, .user-table td {
+  padding: 15px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.products-table tr:last-child td, .user-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Action Buttons in Table */
+.btn, .delete-btn, .modify-btn {
+  padding: 8px 15px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #d93636;
+  transform: scale(1.05);
+}
+
+.modify-btn {
+  background-color: #ffa726;
+  color: white;
+}
+
+.modify-btn:hover {
+  background-color: #e6951e;
+  transform: scale(1.05);
+}
+
+/* Add New User Form */
+.add-new-user-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.add-new-user-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 200px;
+}
+
+.add-new-user-form .add-btn {
+  background-color: #1b4332;
+  color: white;
+}
+
+.add-new-user-form .cancel-btn {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.add-new-user-form .cancel-btn:hover {
+  background-color: #e0e0e0;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  text-align: center;
+  animation: fadeIn 0.3s ease;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1b4332;
+  margin-bottom: 20px;
+}
+
+/* Modal Form Inputs */
+.modal-input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.modal-input:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Modal Buttons */
+.modal-add-btn, .modal-close-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-add-btn {
+  background-color: #2d6a4f;
+  color: white;
+}
+
+.modal-add-btn:hover {
+  background-color: #1e4c34;
+}
+
+.modal-close-btn {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.modal-close-btn:hover {
+  background-color: #d93636;
+}
+
+/* Error Message */
+.error-message {
+  color: #ff4d4d;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Modal Save and Close Buttons */
+.modal-save-btn {
+  background-color: #2d6a4f;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-save-btn:hover {
+  background-color: #1e4c34;
+}
+
+.modal-close-btn {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-close-btn:hover {
+  background-color: #d93636;
+}

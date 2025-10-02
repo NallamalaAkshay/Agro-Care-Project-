@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Organic Apples",
+        "price": 3.99,
+        "image": "/pictures/apples.jpg",
+        "description": "Fresh organic apples grown in sustainable farms.",
+        "farmerDetails": "John Doe from Green Valley Farms"
+    },
+    {
+        "id": 2,
+        "name": "Almond Milk",
+        "price": 5.49,
+        "image": "/pictures/almond_milk.jpg",
+        "description": "Smooth and creamy almond milk for a healthy start.",
+        "farmerDetails": "Jane Smith from Almond Orchards"
+    },
+    {
+        "id": 3,
+        "name": "Organic Honey",
+        "price": 7.99,
+        "image": "/pictures/honey.jpg",
+        "description": "Pure honey sourced from wildflower fields.",
+        "farmerDetails": "Beehive Co-op, managed by Carlos Rivera"
+    },
+    {
+        "id": 4,
+        "name": "Range Eggs",
+        "price": 4.99,
+        "image": "/pictures/eggs.jpg",
+        "description": "Eggs from chickens raised in open pastures.",
+        "farmerDetails": "Emily Larson from Sunny Pastures Farm"
+    },
+    {
+        "id": 5,
+        "name": "Whole Wheat Bread",
+        "price": 3.25,
+        "image": "/pictures/bread.jpg",
+        "description": "Baked fresh with organic whole wheat flour.",
+        "farmerDetails": "Jake’s Bakery, sourced from Miller Farms"
+    },
+    {
+        "id": 6,
+        "name": "Spinach Leaves",
+        "price": 2.49,
+        "image": "/pictures/spinach.jpg",
+        "description": "Organic, pesticide-free spinach leaves.",
+        "farmerDetails": "Green Thumb Organics, managed by Sara Khan"
+    },
+    {
+        "id": 7,
+        "name": "Greek Yogurt",
+        "price": 1.99,
+        "image": "/pictures/yogurt.jpg",
+        "description": "Rich and creamy, made from grass-fed dairy.",
+        "farmerDetails": "Lactose Lovers by Mark & Anna"
+    },
+    {
+        "id": 8,
+        "name": "Quinoa Grain",
+        "price": 6.50,
+        "image": "/pictures/quinoa.jpg",
+        "description": "Protein-rich quinoa, perfect for salads and bowls.",
+        "farmerDetails": "Quinoa Valley, harvested by Maria Ortega"
+    },
+    {
+        "id": 9,
+        "name": "Raw Almonds",
+        "price": 8.75,
+        "image": "/pictures/almonds.jpg",
+        "description": "Crunchy raw almonds packed with nutrients.",
+        "farmerDetails": "Nutty Farms, owned by Bill Turner"
+    },
+    {
+        "id": 10,
+        "name": "Tomato Sauce",
+        "price": 3.75,
+        "image": "/pictures/tomato_sauce.jpg",
+        "description": "Organic tomato sauce with basil and garlic.",
+        "farmerDetails": "Red River Farms, crafted by Linda Rossi"
+    },
+    {
+        "id": 11,
+        "name": "Sweet Potatoes",
+        "price": 2.99,
+        "image": "/pictures/sweet_potatoes.jpg",
+        "description": "Locally grown, rich in flavor and vitamins.",
+        "farmerDetails": "Earth Harvest, led by Tom Bennett"
+    },
+    {
+        "id": 12,
+        "name": "Chamomile Tea",
+        "price": 4.99,
+        "image": "/pictures/tea.jpg",
+        "description": "Relaxing herbal tea made from dried chamomile flowers.",
+        "farmerDetails": "TeaTime Collective, managed by Amanda Lee"
+    },
+    {
+        "id": 13,
+        "name": "Grass-Fed Beef",
+        "price": 12.99,
+        "image": "/pictures/beef.jpg",
+        "description": "Lean and tender grass-fed beef cuts.",
+        "farmerDetails": "FarmFresh Meats, sourced by Peter Walters"
+    },
+    {
+        "id": 14,
+        "name": "Artisan Cheese",
+        "price": 9.50,
+        "image": "/pictures/cheese.jpg",
+        "description": "Handcrafted cheese with a unique, creamy texture.",
+        "farmerDetails": "Dairy Delights, by the Cooper Family"
+    },
+    {
+        "id": 15,
+        "name": "Carrot Juice",
+        "price": 3.99,
+        "image": "/pictures/carrot_juice.jpg",
+        "description": "Freshly squeezed carrot juice packed with nutrients.",
+        "farmerDetails": "JuiceWorks, owned by Alex Mitchell"
+    }
+]

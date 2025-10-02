@@ -1,0 +1,39 @@
+/* src/components/ServicesSection.css */
+.services {
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .services h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 40px;
+  }
+  
+  .service-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .service-item {
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-item h3 {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-bottom: 15px;
+  }
+  
+  .service-item p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+  

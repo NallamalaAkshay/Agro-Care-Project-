@@ -1,0 +1,6 @@
+[
+    { "name": "corp", "country": "USA", "type": "Crop", "price": "1500" },
+    { "name": "corp", "country": "India", "type": "Crop", "price": "50" },
+    { "name": "fertiliezer", "country": "USA", "type": "Fertilizer", "price": "100" }
+  ]
+  

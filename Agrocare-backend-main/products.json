@@ -1,0 +1,223 @@
+[
+    {
+        "name": "Golden Corn",
+        "description": "High-quality organic golden corn.",
+        "price": 1500,
+        "currency": "USD",
+        "farmer_id": "f123",
+        "location": "Iowa, USA",
+        "stock": 500,
+        "unit": "kg",
+        "harvest_date": "2024-09-15",
+        "shipping_cost": 25,
+        "category": "Crop",
+        "image": "https://m.media-amazon.com/images/I/513NSv2TahL._AC_UF894,1000_QL80_.jpg",
+        "brand": "Farm Fresh Organics",
+        "rating": 4.8,
+        "numReviews": 24,
+        "specifications": {
+            "Moisture": "12%",
+            "Color": "Golden Yellow",
+            "Packaging": "25kg bags"
+        }
+    },
+    {
+        "name": "Wheat Berries",
+        "description": "Whole wheat berries, ideal for baking and milling.",
+        "price": 1200,
+        "currency": "USD",
+        "farmer_id": "f124",
+        "location": "Kansas, USA",
+        "stock": 1000,
+        "unit": "kg",
+        "harvest_date": "2024-08-20",
+        "shipping_cost": 30,
+        "category": "Grain",
+        "image": "https://s3.amazonaws.com/grazecart/180farms/images/1609818124_5ff3e00ca150d.jpg",
+        "brand": "Organic Farms Co.",
+        "rating": 4.5,
+        "numReviews": 18,
+        "specifications": {
+            "Moisture": "13%",
+            "Color": "Light Brown",
+            "Packaging": "Bulk or 50kg bags"
+        }
+    },
+    {
+        "name": "Organic Brown Rice",
+        "description": "Nutritious organic brown rice, great for healthy meals.",
+        "price": 900,
+        "currency": "USD",
+        "farmer_id": "f125",
+        "location": "California, USA",
+        "stock": 600,
+        "unit": "kg",
+        "harvest_date": "2024-07-25",
+        "shipping_cost": 20,
+        "category": "Grain",
+        "image": "https://veganfamilykitchen.com/wp-content/uploads/2019/04/how-to-cook-brown-rice-easiest-simplest-healthiest-way-featureimage-1.jpg",
+        "brand": "Nature's Grains",
+        "rating": 4.7,
+        "numReviews": 15,
+        "specifications": {
+            "Moisture": "14%",
+            "Color": "Brown",
+            "Packaging": "10kg bags"
+        }
+    },
+    {
+        "name": "Red Kidney Beans",
+        "description": "Organic red kidney beans, perfect for soups and stews.",
+        "price": 1100,
+        "currency": "USD",
+        "farmer_id": "f126",
+        "location": "Texas, USA",
+        "stock": 700,
+        "unit": "kg",
+        "harvest_date": "2024-06-15",
+        "shipping_cost": 22,
+        "category": "Legume",
+        "image": "https://example.com/images/red_kidney_beans.jpghttps://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/11/19/0/fn_red-kidney-beans-bowl-getty_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1605816753585.jpeg",
+        "brand": "Healthy Harvest",
+        "rating": 4.6,
+        "numReviews": 20,
+        "specifications": {
+            "Moisture": "11%",
+            "Color": "Red",
+            "Packaging": "15kg bags"
+        }
+    },
+    {
+        "name": "Soybeans",
+        "description": "Premium organic soybeans for versatile culinary uses.",
+        "price": 2000,
+        "currency": "USD",
+        "farmer_id": "f127",
+        "location": "Nebraska, USA",
+        "stock": 800,
+        "unit": "kg",
+        "harvest_date": "2024-07-30",
+        "shipping_cost": 40,
+        "category": "Legume",
+        "image": "https://m.media-amazon.com/images/I/61AtXCLE0FL.jpg",
+        "brand": "Green Harvest",
+        "rating": 4.9,
+        "numReviews": 30,
+        "specifications": {
+            "Moisture": "10%",
+            "Color": "Pale Yellow",
+            "Protein Content": "36%",
+            "Packaging": "25kg or 50kg bags"
+        }
+    },
+    {
+        "name": "Almonds",
+        "description": "Raw, organic almonds with a rich, nutty flavor.",
+        "price": 2500,
+        "currency": "USD",
+        "farmer_id": "f128",
+        "location": "California, USA",
+        "stock": 400,
+        "unit": "kg",
+        "harvest_date": "2024-09-10",
+        "shipping_cost": 35,
+        "category": "Nut",
+        "image": "https://images.immediate.co.uk/production/volatile/sites/30/2021/02/almonds-9e25ce7.jpg?quality=90&webp=true&resize=750,681",
+        "brand": "Pure Tree Nuts",
+        "rating": 4.8,
+        "numReviews": 40,
+        "specifications": {
+            "Moisture": "5%",
+            "Color": "Light Brown",
+            "Packaging": "10kg bags"
+        }
+    },
+    {
+        "name": "Quinoa",
+        "description": "Organic quinoa, a nutritious grain alternative.",
+        "price": 1800,
+        "currency": "USD",
+        "farmer_id": "f129",
+        "location": "Colorado, USA",
+        "stock": 350,
+        "unit": "kg",
+        "harvest_date": "2024-08-05",
+        "shipping_cost": 28,
+        "category": "Seed",
+        "image": "https://en.pit-pit.com/cdn/shop/products/5b4c5ef708f3f84a31e72ec2_bc9e97c4-802f-4bae-acb7-1d2de7f8add7.jpg?v=1673051971&width=480",
+        "brand": "Mountain Harvest",
+        "rating": 4.4,
+        "numReviews": 25,
+        "specifications": {
+            "Moisture": "8%",
+            "Color": "White",
+            "Packaging": "5kg bags"
+        }
+    },
+    {
+        "name": "Sunflower Seeds",
+        "description": "High-quality organic sunflower seeds for snacks or baking.",
+        "price": 1300,
+        "currency": "USD",
+        "farmer_id": "f130",
+        "location": "North Dakota, USA",
+        "stock": 600,
+        "unit": "kg",
+        "harvest_date": "2024-09-01",
+        "shipping_cost": 18,
+        "category": "Seed",
+        "image": "https://www.eatingwell.com/thmb/q5Ej3AulH6iP3wDG60BOJ8Xanhg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/sunflower-seeds-square-a86a13fc532d4947a9ee580a97c77285.jpg",
+        "brand": "Sunny Fields",
+        "rating": 4.7,
+        "numReviews": 28,
+        "specifications": {
+            "Moisture": "7%",
+            "Color": "Light Gray",
+            "Packaging": "10kg bags"
+        }
+    },
+    {
+        "name": "Chia Seeds",
+        "description": "Organic chia seeds, great for smoothies and baking.",
+        "price": 1450,
+        "currency": "USD",
+        "farmer_id": "f131",
+        "location": "Arizona, USA",
+        "stock": 500,
+        "unit": "kg",
+        "harvest_date": "2024-09-10",
+        "shipping_cost": 15,
+        "category": "Seed",
+        "image": "https://cdn.britannica.com/75/181375-050-B1219B33/seeds-chia-plant-Mexico-Guatemala-Chia-coating.jpg",
+        "brand": "Healthy Choices",
+        "rating": 4.6,
+        "numReviews": 35,
+        "specifications": {
+            "Moisture": "6%",
+            "Color": "Black",
+            "Packaging": "1kg bags"
+        }
+    },
+    {
+        "name": "Lentils",
+        "description": "Organic green lentils, perfect for soups and stews.",
+        "price": 1000,
+        "currency": "USD",
+        "farmer_id": "f132",
+        "location": "Montana, USA",
+        "stock": 750,
+        "unit": "kg",
+        "harvest_date": "2024-06-30",
+        "shipping_cost": 20,
+        "category": "Legume",
+        "image": "https://arrowheadmills.com/wp-content/uploads/2022/10/red-lentils-1-1024x684.jpg",
+        "brand": "Harvest Bounty",
+        "rating": 4.5,
+        "numReviews": 22,
+        "specifications": {
+            "Moisture": "12%",
+            "Color": "Green",
+            "Packaging": "20kg bags"
+        }
+    }
+]

@@ -1,0 +1,93 @@
+/* src/components/HeroSection.css */
+.hero-section {
+    background-image: url('/src/images/Background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  
+  .hero-content h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cta-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #45a049;
+  }
+  
+  .cta-secondary {
+    background-color: transparent;
+    border: 2px solid white;
+  }
+  
+  .cta-secondary:hover {
+    background-color: white;
+    color: #4CAF50;
+  }
+  
+  .hero-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .detail-item {
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .detail-item img {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .detail-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .detail-item p {
+    font-size: 16px;
+  }
+  
+  .hero-description {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 40px auto;
+  }
+  
