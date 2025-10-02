@@ -27,14 +27,14 @@ It provides agricultural tools and e-commerce functionalities, supporting **role
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
+### 🏠 Home Page
+![Home Page](AgroAssist-Frontend-main/src/Assets/pic1.png)
 
-### Home Page
-![Home Page](./src/Assets/pic1.png)
+### 🔑 Login Page
+![Login Page](AgroAssist-Frontend-main/src/Assets/pic2.png)
 
-### Login Page
-![Login Page](./src/Assets/pic2.png)
 
 
 ---
